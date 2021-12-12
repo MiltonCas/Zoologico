@@ -1,0 +1,473 @@
+/*PAGINA*/
+body{
+	
+    color: white;
+	background: #006266;
+	font-family: Verdana;
+}
+.one{
+	color: #ff5252;
+	border: white;
+	border-style: inset;
+	min-height: 50px;
+	max-width: 300px;
+}
+h1{
+
+	color: #33d9b2;
+}
+.two{
+	color: black;
+
+}
+
+#Firts{
+	color: #1289A7;
+	width: 30%;
+	padding: 15px;
+}
+.seven{
+	color: black;
+}
+.three{
+	color:  #18dcff;
+}
+.four{
+	color: #ff793f;
+}
+.five{
+	color: #ffb8b8;
+}
+a[href="http://data.sedema.cdmx.gob.mx/zoo_chapultepec/"]{
+	color: #badc58 ;
+}
+a[href="http://data.sedema.cdmx.gob.mx/zoo_aragon/"]{
+	color: #badc58;
+}
+#Felinos{
+	color:#badc58 ;
+}
+.g{
+color: #63cdda;
+}
+a[href="Reptil"]{
+	color: whitesmoke;
+}
+.Primera{
+	border: black;
+	border-style: dotted;
+}
+.Cont{  /* Para la flexible-box, queremos que haya espacio entre los extremos*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /*Alineamos el texto*/
+	flex-wrap: wrap/*nowrap*/; /*Para que al hacer pequeña la pagina se acomode*/
+}
+
+.pdf{
+	color: #b8e994;
+	align-content: center;
+	font-size: 18;
+	font-family: cursive;
+	}
+
+
+
+
+
+
+
+/*QUETZAL*/
+
+.General{    /*EL GRID ALTERNATIVO*/
+	margin: auto;
+	margin-top: 50px;
+	width: 950px;
+	height: 3470px;
+	background-color:#8B0000;
+}
+.Novedades{
+	float: right;
+	width: 300px;
+
+	height: 500px;
+	background-color:#227093;
+}
+.Info{
+	width: 640px;
+	margin-top: 20px;
+	height: 200px;
+	background-color: #006266;
+	text-align: justify;
+}
+.TODO{
+	margin-top: 20px;
+	width: 640px;
+	height: 3250px;
+	background-color:#192a56;
+	text-align: justify;
+}
+.Picture{
+	display: flex;
+	justify-content: center;
+}
+a[href="https://www.gob.mx/conanp/documentos/programa-de-accion-para-la-conservacion-de-la-especie-pace-quetzal-pharomachrus-mocinno-mocinno"]{
+	color: red;
+}
+
+
+
+
+
+.All{
+	background-color: #FDA7DF;
+	margin: auto;
+	margin-top: 50px;
+	width: 960px;
+	height: 3520px;
+}
+.Nov{
+	background-color: #ED4C67;
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+.CT{
+	
+	width: 640px;
+	height: 3300px;
+	background-color:#192a56;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VAQUITA MARINA*/
+header{               /*HEADER Y FOOTER*/
+	background-color: #5E2129;
+	color: white;
+}
+.main{
+	background-color:#3E5F8A ;
+}
+
+aside{
+float: right;
+background-color:#B68D2C;
+}
+.rt{
+	background-color:#2C5545;
+}
+.ye{
+	text-align: justify;
+
+}
+footer{
+	background-color: #B32428;
+}
+
+
+/*OSO POLAR*/
+.SC{
+	background-color: darkred;
+}
+.SS{
+	background-color:#00d8d6;
+}
+.SA{
+	background-color: #485460;
+}
+.Gen{
+	background-color: #18289C;
+	text-align: justify;
+}
+.Am{
+	color: yellow;
+}
+
+
+
+/*ZOOSHOP*/
+/*GALERIA DE BOOTSTRAP*/
+#galeria .col lg 4{ margin: 0; padding: 25px;  
+
+}
+
+#galeria img{ width: 100%; height: 300px;
+
+}
+
+#galeria img:hover{
+	border: 5px solid rgb(0, 0, 0);
+}
+
+
+
+
+.Rojo{              
+	float: left;
+	width: 350px;
+    height: 110px;
+	background-color:#e1b12c;
+}
+.guinda{
+	color: #fff200;
+}
+/*boton sonido */
+.boton{     
+  height: 490px;
+	width: 490px;
+	background: url('https://static.vecteezy.com/system/resources/previews/000/617/018/non_2x/vector-tiger-icon-isolated-on-a-white-background-tiger-logo-template-tattoo-design-t-shirt-print.jpg');
+}
+/*POP-OVER*/
+.Pop{
+	background-color: #192a56;
+	color: black;
+}
+
+
+
+
+
+/*PORTAL*/
+.iconos{    /*Botones Flotantes*/
+	float: right;
+}
+
+
+
+
+.vid{      /* VIDEO FONDO DE PANTALLA*/
+/*	margin: 0;
+	display: flex;
+	justify-content: flex-end; */
+	font-family: cursive;
+
+}
+
+video{
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+	/*-webkit-filter: grayscale(100%);  HACERLO BLANCO Y NEGRO */
+}
+main{ /*CONTENIDO*/
+	width: 1370px;
+}
+/*BARRA DE PROGRESO*/
+.barrastyle::-webkit-progress-bar{
+	background: red;
+}
+/*ZOOSHOP Y AVIARIO, IMAGEN FONDE PANTALLA*/
+.BOS{
+ 	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+ }
+   
+
+
+
+
+
+
+
+/*ACUATICOS*/
+#menu ul {   /* MENU DESPLEGABLE */
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+
+ .MAR{
+ 	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+ }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:#192a56;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:20px;
+    padding:10px;
+    font-family: verdana;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#192a56;
+    transition: .4s;
+   }
+
+/* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+
+ .imp{
+    background-color: rgba(250, 200, 177, 0.986); 
+    color: rgb(16, 163, 151);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+   } 
+/*ID PARA HACER RESPONSIVE LAS IMAGENES*/
+#como{
+	width: 50%;
+	margin: 0 auto;
+	max-width: 50%;
+	max-height: 50%;
+	min-width: 50%;
+	min-height: 50%;
+}
+/*CLASE PARA JUSTIFICAR TODOS LOS TEXTOS*/
+.Just{
+   text-align: justify;
+}
+
+
+/*imagenes con zoom*/
+.zoom-bg:hover:before { 
+  transform: scale(1.2);
+}
+
+.zoom-img {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.zoom-img > img {  
+  object-fit: cover;
+	width: 100%;
+	height: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.zoom-img:hover > img {
+  transform: scale(1.2);
+}
+
+/*BOTON PERSONALIZADO*/
+.botonP{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    background-color: #0a3d62;
+    border-radius: 15px;
+    border: 3px double black;
+  }
+  .botonP{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+
+
+
+/*AIARIO*/
+/*Navegacion con pestañas internas*/
+  .menus{
+  	display: flex;
+  	justify-content: right;
+  	font-family: engineer;
+  }
+  .menus p{
+  	margin-right: 2rem;
+  	cursor:  pointer;
+  	color: black;
+  }
+.contenedores{
+	margin-top: 2rem;
+}
+[data-content]{
+	display: none;
+}
+.active[data-content]{
+	display: block;
+}
